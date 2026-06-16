@@ -1,0 +1,16 @@
+version: "2"
+
+run:
+  timeout: 5m
+
+linters:
+  enable:
+    - gosec      # security issues (SAST)
+    - misspell   # common spelling mistakes in comments/strings
+    - unconvert  # redundant type conversions
+    - revive     # broad style/lint rules (replacement for golint)
+
+formatters:
+  enable:
+    - gofmt
+    - goimports

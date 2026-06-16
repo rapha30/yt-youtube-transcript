@@ -1,0 +1,11 @@
+# build artifacts
+/yt-transcript
+/yt-transcript.exe
+/dist/
+
+# test / coverage
+coverage.out
+*.coverprofile
+
+# downloaded transcripts (regenerate from the tool)
+/transcripts/
