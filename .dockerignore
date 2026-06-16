@@ -1,0 +1,9 @@
+.git
+.github
+dist/
+transcripts/
+*.exe
+yt-transcript
+coverage.out
+*.md
+!README.md
